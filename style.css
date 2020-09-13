@@ -1,0 +1,358 @@
+@font-face{
+    font-family:font-engr;
+    src:url("Fonts/engr.ttf") format("truetype")
+}
+@font-face{
+    font-family:Cooper Black;
+    src:url("Fonts/Cooper Black Regular.ttf") format("truetype")
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg{
+    background:linear-gradient(rgba(0, 0, 0, 0.35),#000000), url('photos/Untitled-1.jpg'); 
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    width: 1696px;
+    margin: auto;
+}
+.logo img{
+    display: flex;
+    float: left;
+    width: 150px;
+    margin-top: 27px;
+}
+.manu{
+    float: right;
+     margin-top: 70px;
+}
+.manu ul{
+   list-style: none; 
+    display: flex;
+}
+.manu ul li{
+    margin-left: 26px;
+}
+.manu ul li a{
+    font-family:font-engr;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bg-middel{
+   font-family:font-engr;
+    color: white; 
+     text-transform: uppercase;
+    text-align: center;
+   height: 100%;
+    padding-top: 220px;
+    
+}
+.bg-middel h1{
+    font-size: 180px;
+    color: #d0ce09;
+}
+.bg-middel h3{
+   font-size: 70px;
+    color: #d0ce09; 
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.bg-middel h5{
+   font-size: 70px;
+    padding-top: 70px;
+}
+.bg-middel h5 span{
+    color: #ee7272;
+}
+.button h2{
+    font-family:Cooper Black;
+    color: #f5b300;
+    display: inline-block;
+    border: 10px solid #f20808;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 60%;
+   
+}
+.middel{
+    width: 1696px;
+    margin: auto;
+    display: block;
+}
+.middel-section{
+    display: block;
+ text-align: center;
+   height: 100%;
+   
+}
+.middel-section .service{
+      font-family:font-engr;
+    margin-top: 100px;
+    font-size: 76px;
+    text-transform: uppercase;
+    color: #010000;
+} 
+.middel-section .service span{
+    color: #f20808;
+}
+.middel-section .lorems{
+   color: #010000; 
+    font-family:font-engr;
+    width: 900px;
+    margin: 0 auto;
+        
+}
+.milk{
+    display: block;
+}
+.card{
+    display: block;
+     font-family:font-engr;
+    width: 239px;
+    background: #303343;
+    float: left;
+    margin-top: 70px;
+    margin-left:150px;
+    border-radius: 10px;
+}
+.card .card-first img{
+    width: 150px;
+  margin-left: 30px;
+}
+.WEB-DESIGN{
+    font-size: 20px;
+     color: #fff; 
+    padding: 0 20px;
+    margin: 0px;
+}
+.WEB-DESIGNlorem{
+    font-size: 10px;
+     padding: 8px 20px;
+    margin-top: 0px;
+    color: #fff
+}
+.sorry{
+    display: inline-block;
+}
+.h111{
+    color: white;
+}
+.recent{
+    width: 1200px;
+    margin: 0 auto;
+}
+.recent .resent-project{
+    display: block;
+    overflow: hidden;
+}
+.recent .resent-project p{
+    font-family:font-engr;
+     color: #010000; 
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.recent .resent-project p span{
+    color:  #f20808;
+}
+.part-section{
+   margin-top: 100px;
+
+}
+.allpart{
+    overflow: hidden;
+}
+.part-section .slid1{
+    width: 50%;
+    float: left;
+    height: 300px;
+    background: #2A293F;
+    font-family:font-engr;
+    color: white;
+}
+.part-section .slid1 h1{
+   margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.part-section .slid1 h3{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.part-section .slid1 p{
+   margin: 20px 50px;
+    font-size: 10px;
+}
+.part-section .slid2-bg{
+    width: 50%;
+    height: 300px;
+    background: url('photos/silder-img.jpg');
+    float:right;
+}
+.part-section3{
+    
+}
+.slid3-bg{
+   width: 50%;
+    height: 300px;
+    background: url('photos/silder-img.jpg');
+    float:left;  
+}
+.part-section3 .slid3{
+    width: 50%;
+    float: left;
+    height: 300px;
+    background: #2A293F;
+    font-family:font-engr;
+    color: white;
+}
+.part-section3 .slid3 h1{
+     margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.part-section3 .slid3 h3{
+      margin-left: 50px;
+    font-size: 20px;
+}
+.part-section3 .slid3 p{
+    margin: 20px 50px;
+    font-size: 10px;
+}
+.contant .button1 h5{
+     font-family:font-engr;
+    display: inline-block;
+    border: 5px solid #f20808;
+    padding: 10px 2px;
+    color: #010000; 
+   }
+
+.abo .img img{
+    width: 350px;
+    float: left;
+    border: 10px solid #f20808;
+    border-radius: 10px;
+}
+.aboutme{
+    margin-top: 150px;
+    overflow: hidden;
+     font-family:font-engr;
+}
+.abo .contant{
+   width: 600px;
+    float: right;
+}
+.contant h1{
+    font-size: 40px;
+     color: #010000; 
+}
+.contant h1 span{
+    color: #f20808;
+}
+.contant h3{
+    font-size: 25px;
+     color: #010000; 
+}
+.contant p{
+    font-size: 12px;
+    color: #010000;
+    width: 500px;
+}
+.contact{
+  overflow: hidden;
+    display: block;
+}
+.contact-info{
+  font-family:font-engr;
+     color: #010000; 
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;  
+}
+.contact-info span{
+    color: #f20808;
+}
+.contact1{
+    overflow: hidden;
+    margin-top: 100px;
+    border: 4px solid  #010000;
+    overflow: hidden;
+    width: 300px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.phone-part img{
+    width: 80px;
+    float: left;
+    margin-right: 14px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.text2{
+    padding: 40px 20px;
+}
+.contact1 .text2 h1{
+    font-family:font-engr;
+     color: #010000; 
+    font-size: 20px;
+}
+.contact1 .text2 p{
+    font-family:font-engr;
+     color: #010000; 
+    font-size: 13px
+}
+.con{
+    overflow: hidden;
+}
+.footer{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.footer-bg{
+    width: auto;
+    background: #303343;
+    overflow: hidden;
+}
+.center{
+      font-family:font-engr;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    overflow: hidden;
+    
+}
+.center h1{
+    margin-bottom: 30px;
+    font-size: 46px;
+}
+.center h1 span{
+    color:  #f20808;
+}
+.sosal-icon{
+    overflow: hidden;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 23px;
+    padding-bottom: 23px; 
+}
+.sosal-icon img{
+    float: left;
+    margin-left: 25px;
+    width: 80px;
+}
+.ghh{
+    overflow: hidden;
+}
